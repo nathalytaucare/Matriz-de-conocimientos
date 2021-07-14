@@ -1,0 +1,422 @@
+{
+   "AAAA": [
+      {
+         "Tecnología": "Flutter",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 5,
+         "¿cuándo se requiere": "en 1 mes"
+      },
+      {
+         "Tecnología": "Flutter",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 10,
+         "¿cuándo se requiere": "en 1 mes"
+      },
+      {
+         "Tecnología": "React Js",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 2,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "React Js",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 6,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "React Js",
+         "Nivel de Madurez": "Junior",
+         "Cantidad": 12,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "React Native",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 2,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "React Native",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 6,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "React Native",
+         "Nivel de Madurez": "Junior",
+         "Cantidad": 12,
+         "¿cuándo se requiere": "en 2 meses"
+      }
+   ],
+   "BBBB": [
+      {
+         "Tecnología": "Xamarin",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 2,
+         "¿cuándo se requiere": "en 2 semanas"
+      },
+      {
+         "Tecnología": "Xamarin",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 4,
+         "¿cuándo se requiere": "en 2 semanas"
+      },
+      {
+         "Tecnología": "Xamarin",
+         "Nivel de Madurez": "Junior",
+         "Cantidad": 12,
+         "¿cuándo se requiere": "en 2 semanas"
+      },
+      {
+         "Tecnología": "Flutter",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 2,
+         "¿cuándo se requiere": "en 1 mes"
+      },
+      {
+         "Tecnología": "Flutter",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 4,
+         "¿cuándo se requiere": "en 1 mes"
+      },
+      {
+         "Tecnología": "Flutter",
+         "Nivel de Madurez": "Junior",
+         "Cantidad": 12,
+         "¿cuándo se requiere": "en 1 mes"
+      },
+      {
+         "Tecnología": "Adobe (AEM)",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 4,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Adobe (AEM)",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 8,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Adobe (AEM)",
+         "Nivel de Madurez": "Junior",
+         "Cantidad": 16,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Adobe Analytics",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 4,
+         "¿cuándo se requiere": "en 1 mes"
+      },
+      {
+         "Tecnología": "Adobe Target",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 4,
+         "¿cuándo se requiere": "en 1 mes"
+      },
+      {
+         "Tecnología": "DMP (Adobe Audience Manager)",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 4,
+         "¿cuándo se requiere": "en 1 mes"
+      },
+      {
+         "Tecnología": "Adobe Campaing",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 1,
+         "¿cuándo se requiere": "en 1 mes"
+      }
+   ],
+   "CCCC": [
+      {
+         "Tecnología": "React Js",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 4,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "React Js",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 4,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "React Native",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 4,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "React Native",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 4,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Adobe Commerce (Magento)",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 2,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Adobe Commerce (Magento)",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 8,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Adobe Commerce (Magento)",
+         "Nivel de Madurez": "Junior",
+         "Cantidad": 16,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Microsoft LUIS",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 4,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "BotFramework",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 6,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "MVC",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 1,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "MVVM",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 1,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "MVP",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 1,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Clean Architecture",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 1,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Google Analytics",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 4,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Tag Manager",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 4,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Data Studio",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 4,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Firebase Analytics",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 4,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Adobe Analytics",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 4,
+         "¿cuándo se requiere": "en 2 meses"
+      }
+   ],
+   "DDDD": [
+      {
+         "Tecnología": "Angular",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 6,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Angular",
+         "Nivel de Madurez": "Basico",
+         "Cantidad": 20,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Ionic Angular",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 6,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Ionic Angular",
+         "Nivel de Madurez": "Basico",
+         "Cantidad": 20,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Liferay",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 2,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Liferay",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 6,
+         "¿cuándo se requiere": "en 2 meses"
+      }
+   ],
+   "EEEEE": [
+      {
+         "Tecnología": "iOS (Swift)",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 10,
+         "¿cuándo se requiere": "en 3 semanas"
+      },
+      {
+         "Tecnología": "Android (Kotlin)",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 10,
+         "¿cuándo se requiere": "en 3 semanas"
+      },
+      {
+         "Tecnología": "Modyo",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 2,
+         "¿cuándo se requiere": "en 2 meses"
+      }
+   ],
+   "FFFFF": [
+      {
+         "Tecnología": "Acquia",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 2,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Liferay",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 2,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "eva 3.x",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 1,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "eva 3.x",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 6,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Unity",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 2,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "8th Wall",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 2,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Vuforia",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 1,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "NAKA",
+         "Nivel de Madurez": "MEDIO",
+         "Cantidad": 4,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "AR Core",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 1,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "ARKit",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 1,
+         "¿cuándo se requiere": "en 2 meses"
+      }
+   ],
+   "GGGG": [
+      {
+         "Tecnología": "eva 3.x",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 2,
+         "¿cuándo se requiere": "en 2 meses"
+      }
+   ],
+   "HHHH": [
+      {
+         "Tecnología": "DialogFlow",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 4,
+         "¿cuándo se requiere": "en 2 meses"
+      }
+   ],
+   "TODOS": [
+      {
+         "Tecnología": "Jira",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 40,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Confluence",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 40,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "GITHub",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 40,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "Jenkins",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 40,
+         "¿cuándo se requiere": "en 2 meses"
+      },
+      {
+         "Tecnología": "UX/UI",
+         "Nivel de Madurez": "Experto",
+         "Cantidad": 8,
+         "¿cuándo se requiere": "en 2 semanas"
+      },
+      {
+         "Tecnología": "UX/UI",
+         "Nivel de Madurez": "Medio",
+         "Cantidad": 20,
+         "¿cuándo se requiere": "en 2 semanas"
+      },
+      {
+         "Tecnología": "UX/UI",
+         "Nivel de Madurez": "Basico",
+         "Cantidad": 30,
+         "¿cuándo se requiere": "en 2 semanas"
+      }
+   ]
+}
