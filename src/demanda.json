@@ -1,0 +1,473 @@
+{
+  "clients": [
+ {
+   "Cliente": "AAAA",
+   "Tecnología": "Flutter",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 5,
+   "Tiempo": "en 1 mes"
+ },
+ {
+   "Cliente": "AAAA",
+   "Tecnología": "Flutter",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 10,
+   "Tiempo": "en 1 mes"
+ },
+ {
+   "Cliente": "BBBB",
+   "Tecnología": "Xamarin",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 2,
+   "Tiempo": "en 2 semanas"
+ },
+ {
+   "Cliente": "BBBB",
+   "Tecnología": "Xamarin",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 4,
+   "Tiempo": "en 2 semanas"
+ },
+ {
+   "Cliente": "BBBB",
+   "Tecnología": "Xamarin",
+   "Nivel de Madurez": "Junior",
+   "Cantidad": 12,
+   "Tiempo": "en 2 semanas"
+ },
+ {
+   "Cliente": "CCCC",
+   "Tecnología": "React Js",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 4,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "CCCC",
+   "Tecnología": "React Js",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 4,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "AAAA",
+   "Tecnología": "React Js",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 2,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "AAAA",
+   "Tecnología": "React Js",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 6,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "AAAA",
+   "Tecnología": "React Js",
+   "Nivel de Madurez": "Junior",
+   "Cantidad": 12,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "DDDD",
+   "Tecnología": "Angular",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 6,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "DDDD",
+   "Tecnología": "Angular",
+   "Nivel de Madurez": "Basico",
+   "Cantidad": 20,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "DDDD",
+   "Tecnología": "Ionic Angular",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 6,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "DDDD",
+   "Tecnología": "Ionic Angular",
+   "Nivel de Madurez": "Basico",
+   "Cantidad": 20,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "EEEEE",
+   "Tecnología": "iOS (Swift)",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 10,
+   "Tiempo": "en 3 semanas"
+ },
+ {
+   "Cliente": "EEEEE",
+   "Tecnología": "Android (Kotlin)",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 10,
+   "Tiempo": "en 3 semanas"
+ },
+ {
+   "Cliente": "BBBB",
+   "Tecnología": "Flutter",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 2,
+   "Tiempo": "en 1 mes"
+ },
+ {
+   "Cliente": "BBBB",
+   "Tecnología": "Flutter",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 4,
+   "Tiempo": "en 1 mes"
+ },
+ {
+   "Cliente": "BBBB",
+   "Tecnología": "Flutter",
+   "Nivel de Madurez": "Junior",
+   "Cantidad": 12,
+   "Tiempo": "en 1 mes"
+ },
+ {
+   "Cliente": "CCCC",
+   "Tecnología": "React Native",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 4,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "CCCC",
+   "Tecnología": "React Native",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 4,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "AAAA",
+   "Tecnología": "React Native",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 2,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "AAAA",
+   "Tecnología": "React Native",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 6,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "AAAA",
+   "Tecnología": "React Native",
+   "Nivel de Madurez": "Junior",
+   "Cantidad": 12,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "BBBB",
+   "Tecnología": "Adobe (AEM)",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 4,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "BBBB",
+   "Tecnología": "Adobe (AEM)",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 8,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "BBBB",
+   "Tecnología": "Adobe (AEM)",
+   "Nivel de Madurez": "Junior",
+   "Cantidad": 16,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "FFFFF",
+   "Tecnología": "Acquia",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 2,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "FFFFF",
+   "Tecnología": "Liferay",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 2,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "DDDD",
+   "Tecnología": "Liferay",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 2,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "DDDD",
+   "Tecnología": "Liferay",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 6,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "EEEEE",
+   "Tecnología": "Modyo",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 2,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "CCCC",
+   "Tecnología": "Adobe Commerce (Magento)",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 2,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "CCCC",
+   "Tecnología": "Adobe Commerce (Magento)",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 8,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "CCCC",
+   "Tecnología": "Adobe Commerce (Magento)",
+   "Nivel de Madurez": "Junior",
+   "Cantidad": 16,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "GGGG",
+   "Tecnología": "eva 3.x",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 2,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "FFFFF",
+   "Tecnología": "eva 3.x",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 1,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "FFFFF",
+   "Tecnología": "eva 3.x",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 6,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "HHHH",
+   "Tecnología": "DialogFlow",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 4,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "CCCC",
+   "Tecnología": "Microsoft LUIS",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 4,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "CCCC",
+   "Tecnología": "BotFramework",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 6,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "FFFFF",
+   "Tecnología": "Unity",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 2,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "FFFFF",
+   "Tecnología": "8th Wall",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 2,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "FFFFF",
+   "Tecnología": "Vuforia",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 1,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "FFFFF",
+   "Tecnología": "NAKA",
+   "Nivel de Madurez": "MEDIO",
+   "Cantidad": 4,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "FFFFF",
+   "Tecnología": "AR Core",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 1,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "FFFFF",
+   "Tecnología": "ARKit",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 1,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "CCCC",
+   "Tecnología": "MVC",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 1,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "CCCC",
+   "Tecnología": "MVVM",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 1,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "CCCC",
+   "Tecnología": "MVP",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 1,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "CCCC",
+   "Tecnología": "Clean Architecture",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 1,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "TODOS",
+   "Tecnología": "Jira",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 40,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "TODOS",
+   "Tecnología": "Confluence",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 40,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "TODOS",
+   "Tecnología": "GITHub",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 40,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "TODOS",
+   "Tecnología": "Jenkins",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 40,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "CCCC",
+   "Tecnología": "Google Analytics",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 4,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "CCCC",
+   "Tecnología": "Tag Manager",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 4,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "CCCC",
+   "Tecnología": "Data Studio",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 4,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "CCCC",
+   "Tecnología": "Firebase Analytics",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 4,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "CCCC",
+   "Tecnología": "Adobe Analytics",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 4,
+   "Tiempo": "en 2 meses"
+ },
+ {
+   "Cliente": "BBBB",
+   "Tecnología": "Adobe Analytics",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 4,
+   "Tiempo": "en 1 mes"
+ },
+ {
+   "Cliente": "BBBB",
+   "Tecnología": "Adobe Target",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 4,
+   "Tiempo": "en 1 mes"
+ },
+ {
+   "Cliente": "BBBB",
+   "Tecnología": "DMP (Adobe Audience Manager)",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 4,
+   "Tiempo": "en 1 mes"
+ },
+ {
+   "Cliente": "BBBB",
+   "Tecnología": "Adobe Campaing",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 1,
+   "Tiempo": "en 1 mes"
+ },
+ {
+   "Cliente": "TODOS",
+   "Tecnología": "UX/UI",
+   "Nivel de Madurez": "Experto",
+   "Cantidad": 8,
+   "Tiempo": "en 2 semanas"
+ },
+ {
+   "Cliente": "TODOS",
+   "Tecnología": "UX/UI",
+   "Nivel de Madurez": "Medio",
+   "Cantidad": 20,
+   "Tiempo": "en 2 semanas"
+ },
+ {
+   "Cliente": "TODOS",
+   "Tecnología": "UX/UI",
+   "Nivel de Madurez": "Basico",
+   "Cantidad": 30,
+   "Tiempo": "en 2 semanas"
+ }
+]
+}
