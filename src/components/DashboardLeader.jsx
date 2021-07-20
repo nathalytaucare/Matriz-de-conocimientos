@@ -5,11 +5,11 @@ const DashboardLeader = () => {
   return (
     <Fragment>
      <Navbar />
-        <main className="dashboardLeader">
+        <main className="dashboardLeader carousel slide"
         id="carouselExampleControls"
-        className="carousel slide"
         data-bs-ride="carousel"
         >
+
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <img src="./imgCarousel/01.jpg" className="d-block w-100" alt="total" />
