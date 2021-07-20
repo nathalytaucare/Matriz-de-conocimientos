@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "../images/FrameEverisColor.png";
+import '../components/navbar.css'
 
 const Navbar = () => {
     return (
@@ -40,7 +41,6 @@ const Navbar = () => {
     </div>
   </div>
 </nav>
-
     )
 }
 
