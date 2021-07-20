@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { Fragment } from "react";
+import Navbar from "./Navbar";
 
 const DashboardLeader = () => {
-    return (
-        <div>
-            <h1>hola</h1>
-        </div>
-    )
-}
+  return (
+    <Fragment>
+     <Navbar />
+    <main className="dashboardLeader"> </main>
+    </Fragment>
 
-export default DashboardLeader
+  );
+};
+
+export default DashboardLeader;

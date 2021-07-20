@@ -10,6 +10,7 @@ const EmployeeProfile = () => {
     const history = useHistory();
     return (
         <div>
+
             <nav className="navbar navbar-light bg-light">
                 <img src={logo} width="80" height="50" alt="logo" />
                 {/* <a class="navbar-brand">Navbar</a> */}
