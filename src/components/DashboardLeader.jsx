@@ -1,13 +1,15 @@
-import React, {Fragment} from "react";
+import React, { Fragment } from "react";
 import Navbar from "./Navbar";
+import Carousel1 from "./Carousel1";
 
 const DashboardLeader = () => {
   return (
     <Fragment>
-     <Navbar />
-     
+      <Navbar />
+        <div className="container">
+          <Carousel1 />
+        </div>     
     </Fragment>
-
   );
 };
 
