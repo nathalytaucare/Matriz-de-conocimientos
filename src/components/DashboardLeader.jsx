@@ -1,9 +1,11 @@
-import React from "react";
-
+import React, {Fragment} from "react";
+import Navbar from "./Navbar";
 
 const DashboardLeader = () => {
-    return (  
-        <div
+  return (
+    <Fragment>
+     <Navbar />
+        <main className="dashboardLeader">
         id="carouselExampleControls"
         className="carousel slide"
         data-bs-ride="carousel"
@@ -39,8 +41,10 @@ const DashboardLeader = () => {
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Next</span>
             </button>
-        </div>
-    );
+        </main>    
+    </Fragment>
+
+  );
 };
 
 export default DashboardLeader;
