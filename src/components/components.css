@@ -1,14 +1,40 @@
-body {
-    /* margin: 0;
-    padding: 0; */
-    background-image: url(../images/login.jpg);
-    background-repeat:no-repeat;
-    background-size:contain;
-    /* width: 100%;
-    height: 100%; */
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dashboardLeader {
+      height: 100vh;
+      background-image: url(../images/dashboard-lider.jpg);
+      background-repeat: no-repeat;
+      background-size: 100vh;
+      background-position: center;
   }
-/*   
-  *{
-    box-sizing: border-box; 
+
+  .navbar-collapse {
+      justify-content: space-evenly;
+
   }
-   */
+
+  .navbar-nav {
+      align-items: center;
+  }
+  .navbar img {
+    width: 10rem;
+    height: 5rem;
+  }
