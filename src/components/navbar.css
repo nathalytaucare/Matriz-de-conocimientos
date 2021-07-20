@@ -1,6 +1,6 @@
 .navbar {
-  margin-left: 1rem;
-  margin-right: 2rem;
+margin: 0;
+font-size: 1.5rem;
 }
 
 .navbar-collapse {
@@ -9,6 +9,7 @@
 
 .navbar-nav {
   align-items: center;
+  inline-size: -webkit-fill-available;
 }
 
 .navbar img {
