@@ -37,26 +37,26 @@ const FilterAndSearch = () => {
     const [name, setName] = useState('')
 
     useEffect(() => {
-            const select = document.getElementById("selectNumber");
-            const options = data.tecnologias;
+        const select = document.getElementById("selectNumber");
+        const options = data.tecnologias;
 
-            for (let i = []; i < options.length; i++) {
-                const opt = options[i];
-                const el = document.createElement("option");
-                el.textContent = opt;
-                el.value = opt;
-                select.appendChild(el);
-            };
+        for (let i = []; i < options.length; i++) {
+            const opt = options[i];
+            const el = document.createElement("option");
+            el.textContent = opt;
+            el.value = opt;
+            select.appendChild(el);
+        };
 
     }, [])
 
     const filterTech = (name) => {
-/*  tasks.map(item => {
-            return (
-                console.log(item)
-                );
-        }) 
-       console.log("name " + name) */
+        /*  tasks.map(item => {
+                    return (
+                        console.log(item)
+                        );
+                }) 
+               console.log("name " + name) */
     }
 
 
@@ -64,14 +64,23 @@ const FilterAndSearch = () => {
         <Fragment>
             <Navbar />
             <section className="filter_section">
-                <p>FILTRAR RESULTADOS</p>
-                <select id="selectNumber" className="form-select form-select-sm" value={name} onChange={(e) => { setName(e.target.value) }}>
-                    <option>Tecnologias</option>
-                </select>
+                <p className="title">FILTRAR RESULTADOS</p>
+                <div className="form-group row">
 
+                    <div className="form-group col-md-4">
+                        <select id="selectNumber" className="form-select form-select-sm" value={name} onChange={(e) => { setName(e.target.value) }}>
+                            <option>Tecnologias</option>
+                        </select>
+                    </div>
 
-                <input type="search"  className="form-control" id="staticEmail2" placeholder="Otros conocimientos 🔍" />
-                <input type="search" className="form-control" id="staticEmail1" placeholder="ID empleado 🔍" />
+                    <div className="form-group col-md-4">
+                        <input type="search" className="form-control" id="staticEmail2" placeholder="Otros conocimientos 🔍" />
+                    </div>
+                    <div className="form-group col-md-4">
+                        <input type="search" className="form-control" id="staticEmail1" placeholder="ID empleado 🔍" />
+                    </div>
+                </div>
+
 
                 <div>
                     <div className="form-check form-check-inline">
@@ -92,11 +101,10 @@ const FilterAndSearch = () => {
                 <button type="submit" className="btn group mb-2" onClick={() => filterTech(name)}>Filtrar</button>
             </section>
 
-            <p>{tasks.length} RESULTADOS ENCONTRADOS</p>
+            <p className="title">{tasks.length} RESULTADOS ENCONTRADOS</p>
             <section className="orders_container">
                 <div className="employeesTable">
                     <table className="table table-hover table-sm table-responsive ">
-                        {/* table table-hover */}
                         <thead>
                             <tr>
                                 <th scope="col"></th>
