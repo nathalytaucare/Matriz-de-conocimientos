@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import DashboardLeader from './components/DashboardLeader'
-import DashboardManager from './components/DashboardManager'
 import EmployeeProfile from './components/EmployeeProfile'
 import FilterAndSearch from './components/FilterAndSearch'
 import LeaderProfile from './components/LeaderProfile'
@@ -21,8 +20,6 @@ const App = () => {
         <Route exact path="/" component={Login} />
            
           <Route path="/dashboardLeader" component={DashboardLeader} />
-
-          <Route path="/dashboardManager" component={DashboardManager} />
 
           <Route path="/leaderProfile" component={LeaderProfile} />
 
