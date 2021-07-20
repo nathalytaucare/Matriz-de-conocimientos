@@ -15,27 +15,27 @@ const Carousel1 = () => {
 
         <div className="carousel-inner ">
             <div className="carousel-item active" data-bs-interval="10000">
-              <div class="d-flex justify-content-center">
+              <div className="d-flex justify-content-center">
                 <img src="./imgCarousel/total.jpg" className="d-block w-55" alt="total"/>
               </div>
             </div> 
             <div className="carousel-item" data-bs-interval="2000">
-              <div class="d-flex justify-content-center">
+              <div className="d-flex justify-content-center">
                 <img src="./imgCarousel/junior.jpg" className="d-block w-55" alt="junior"/>              
               </div>
             </div>
             <div className="carousel-item">
-              <div class="d-flex justify-content-center">
+              <div className="d-flex justify-content-center">
                 <img src="./imgCarousel/basic.jpg" className="d-block w-55" alt="basic"/>              
               </div>
             </div>
             <div className="carousel-item">
-              <div class="d-flex justify-content-center">
+              <div className="d-flex justify-content-center">
                 <img src="./imgCarousel/medium.jpg" className="d-block w-55" alt="medium"/>              
               </div>
             </div>
             <div className="carousel-item">
-              <div class="d-flex justify-content-center">
+              <div className="d-flex justify-content-center">
                 <img src="./imgCarousel/expert.jpg" className="d-block w-55" alt="expert"/>              
               </div>
             </div>
