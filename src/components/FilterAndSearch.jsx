@@ -3,7 +3,8 @@ import stores from '../firebaseconfig'
 import '../components/FilterAndSearch.css';
 import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
-
+import Navbar from "./Navbar";
+import data from "../tecnologias.json"
 
 const FilterAndSearch = () => {
 
@@ -17,66 +18,93 @@ const FilterAndSearch = () => {
                 }
             })
             setTasks(arrayEmployees)
+
+            const select = document.getElementById("selectNumber");
+            const options = data.tecnologias;
+
+            for (let i = []; i < options.length; i++) {
+                const opt = options[i];
+                const el = document.createElement("option");
+                el.textContent = opt;
+                el.value = opt;
+                select.appendChild(el);
+            };
+
         })
         return () => getEmployeesInfo();
     }, [])
 
-    var select = document.getElementById("selectNumber");
-    var options = stores.collection('employees').get()
-        .then((snapshot) => {
-            snapshot.docs.forEach((docs) => {
-                console.log(Object.entries(docs.data()));
-            });
+    const [name, setName] = useState('')
 
-            for (var i = []; i < options.length; i++) {
-                var opt = options[i];
-                var el = document.createElement("option");
-                el.textContent = opt;
-                el.value = opt;
-                select.appendChild(el);
-            }
-        });
+    useEffect(() => {
+        const select = document.getElementById("selectNumber");
+        const options = data.tecnologias;
+
+        for (let i = []; i < options.length; i++) {
+            const opt = options[i];
+            const el = document.createElement("option");
+            el.textContent = opt;
+            el.value = opt;
+            select.appendChild(el);
+        };
+
+    }, [])
+
+    const filterTech = (name) => {
+        /*  tasks.map(item => {
+                    return (
+                        console.log(item)
+                        );
+                }) 
+               console.log("name " + name) */
+    }
 
 
     return (
         <Fragment>
+            <Navbar />
             <section className="filter_section">
-                <p>FILTRAR RESULTADOS</p>
-                <select id="selectNumber">
-                    <option>Choose a number</option>
-                </select>
+                <p className="title">FILTRAR RESULTADOS</p>
+                <div className="form-group row">
 
-                <select class="form-select form-select-sm" aria-label="Default select example">
-  <option selected>Tecnologías</option>
-  <option value="1">One</option>
-  <option value="2">Two</option>
-  <option value="3">Three</option>
-                </select>
+                    <div className="form-group col-md-4">
+                        <select id="selectNumber" className="form-select form-select-sm" value={name} onChange={(e) => { setName(e.target.value) }}>
+                            <option>Tecnologias</option>
+                        </select>
+                    </div>
 
-                <input type="search" name="otrosConocimientos" placeholder="Otros conocimientos 🔍" />
-                <input type="search" name="IDempleado" placeholder="ID empleado 🔍" />
+                    <div className="form-group col-md-4">
+                        <input type="search" className="form-control" id="staticEmail2" placeholder="Otros conocimientos 🔍" />
+                    </div>
+                    <div className="form-group col-md-4">
+                        <input type="search" className="form-control" id="staticEmail1" placeholder="ID empleado 🔍" />
+                    </div>
+                </div>
+
 
                 <div>
-                    <form action="/action_page.php">
+                    <div className="form-check form-check-inline">
                         <p>Nivel de experiencia</p>
-                        <input type="checkbox" id="basic" name="basic" value="Basico" />
-                        <label htmlFor="basic"> Básico</label><br />
-
-                        <input type="checkbox" id="medium" name="medium" value="Medio" />
-                        <label htmlFor="medium"> Medio</label><br />
-
-                        <input type="checkbox" id="advanced" name="advanced" value="Avanzado" />
-                        <label htmlFor="advanced"> Avanzado</label><br />
-
-                    </form>
+                        <input className="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" />
+                        <label className="form-check-label" htmlFor="inlineCheckbox1">Basico</label>
+                    </div>
+                    <div className="form-check form-check-inline">
+                        <input className="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" />
+                        <label className="form-check-label" htmlFor="inlineCheckbox2">Medio</label>
+                    </div>
+                    <div className="form-check form-check-inline">
+                        <input className="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" />
+                        <label className="form-check-label" htmlFor="inlineCheckbox3">Avanzado</label>
+                    </div>
                 </div>
+
+                <button type="submit" className="btn group mb-2" onClick={() => filterTech(name)}>Filtrar</button>
             </section>
 
-            <p>{tasks.length} RESULTADOS ENCONTRADOS</p>
+            <p className="title">{tasks.length} RESULTADOS ENCONTRADOS</p>
             <section className="orders_container">
                 <div className="employeesTable">
                     <table className="table table-hover table-sm table-responsive ">
-                        {/* table table-hover */}
                         <thead>
                             <tr>
                                 <th scope="col"></th>
