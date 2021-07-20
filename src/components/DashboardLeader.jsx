@@ -5,9 +5,8 @@ const DashboardLeader = () => {
   return (
     <Fragment>
      <Navbar />
-        <main className="dashboardLeader">
+        <main className="dashboardLeader carousel slide"
         id="carouselExampleControls"
-        className="carousel slide"
         data-bs-ride="carousel"
         >
             <div className="carousel-inner">

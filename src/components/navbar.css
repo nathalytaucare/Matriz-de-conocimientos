@@ -1,0 +1,17 @@
+.navbar {
+  margin-left: 1rem;
+  margin-right: 2rem;
+}
+
+.navbar-collapse {
+  justify-content: space-evenly;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar img {
+  width: 10rem;
+  height: 5rem;
+}
