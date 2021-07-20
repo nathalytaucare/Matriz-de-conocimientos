@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useEffect } from 'react';
 import stores from '../firebaseconfig'
-import '../components/components.css';
+import '../components/FilterAndSearch.css';
 import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 

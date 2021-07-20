@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#/">
+    <a className="navbar-brand" href="/">
      <img src={logo} width="25" height="37" alt="" />
     </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
@@ -14,27 +14,27 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#/FilterAndSearch">Busqueda</a>
+          <a className="nav-link active" aria-current="page" href="/FilterAndSearch">Busqueda</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#/DashboardLeader">Dashboard</a>
+          <a className="nav-link" href="/DashboardLeader">Dashboard</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#/">Perfil</a>
+          <a className="nav-link" href="/">Perfil</a>
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#/" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Notificaciones
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a className="dropdown-item" href="#/">Notificaciones</a></li>
+            <li><a className="dropdown-item" href="/">Notificaciones</a></li>
             {/* <li><a className="dropdown-item" href="#/">Another action</a></li>
             <li><hr className="dropdown-divider"/></li>
             <li><a className="dropdown-item" href="#/">Something else here</a></li> */}
           </ul>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#/Login" tabIndex="-1">Log Out</a>
+          <a className="nav-link" href="/Login" tabIndex="-1">Log Out</a>
         </li>
       </ul>
     </div>
