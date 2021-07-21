@@ -103,7 +103,7 @@ const FilterAndSearch = () => {
                                         <td>{item.Nombre}</td>
                                         <td>{item.Numero}</td>
                                         <td>{item.Email}</td>
-                                        <td><Link to="/EmployeeProfile" className="btn group">Ver mas</Link></td>
+                                        <td><Link to="/EmployeeView" className="btn group">Ver mas</Link></td>
                                     </tr>
                                 );
                             })
