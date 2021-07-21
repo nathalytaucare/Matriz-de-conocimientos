@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from "../images/FrameEverisColor.png";
 import '../components/navbar.css'
-import bell from '../images/light.png'
+import { BsFillBellFill } from "react-icons/bs";
 
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
   <div className="container-fluid">
     {/* IMAGEN LOGO */}
     <a className="navbar-brand p-2 flex-fill" href="/">
-     <img src={logo} width="2" height="33" alt="" />
+     <img src={logo} width="2" height="33" alt="" className="navbar_img" />
     </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -28,16 +28,17 @@ const Navbar = () => {
         </li>
         {/* MENU NOTIFICACIONES */}
         <li className="nav-item dropdown p-2 flex-fill">
-          <a className="nav-link dropdown-toggle" href="#/" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Notificaciones
+          <a className="nav-link dropdown-toggle" href="/" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Notificaciones <BsFillBellFill />
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a className="dropdown-item " href="/">Notificaciones</a></li>
-                        <img src={bell} alt="bell" width="32" height="32"/>
-            {/* <li><a className="dropdown-item" href="#/">Another action</a></li>
+            <li><a className="dropdown-item " href="/">Nombre 1 solicita validar conocimientos</a></li>
             <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="#/">Something else here</a></li> */}
+            <li><a className="dropdown-item" href="/">Nombre 2 solicita validar conocimientos</a></li>
+            <li><hr className="dropdown-divider"/></li>
+            <li><a className="dropdown-item" href="/">Alguien mas solicita validar conocimientos</a></li>
           </ul>
+          
         </li>
         <li className="nav-item p-2 flex-fill">
           <a className="nav-link" href="/" tabIndex="-1">Log Out</a>

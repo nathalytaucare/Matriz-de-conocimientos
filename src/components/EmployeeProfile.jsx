@@ -1,14 +1,27 @@
-import React, { Fragment } from "react";
-import { useHistory } from "react-router-dom";
-// import logo from "../images/logo.png";
+import React, { Fragment, useEffect, useState } from "react";
 import profileCard from "../images/profileCard.png";
 import skills from "../images/skills.png";
 import light from "../images/light.png";
 import EmployeeCarousel from "./EmployeeCarousel";
 import NavbarEmployee from "./NavbarEmployee";
+import data from "../tecnologias.json"
 
 const EmployeeProfile = () => {
-    const history = useHistory();
+    const [name, setName] = useState('')
+    useEffect(() => {
+        const select = document.getElementById("selectNumber");
+        const options = data.tecnologias;
+
+        for (let i = []; i < options.length; i++) {
+            const opt = options[i];
+            const el = document.createElement("option");
+            el.textContent = opt;
+            el.value = opt;
+            select.appendChild(el);
+        };
+
+    }, [])
+
     return (
         <Fragment>
             <NavbarEmployee />
@@ -39,17 +52,64 @@ const EmployeeProfile = () => {
                                 <div>
                                     <button
                                         type="button"
-                                        className="btn btn-primary btn-space"
-                                        onClick={() => history.push("/")}
+                                        className="btn group mt-2 ml-2 btn-space"
+                                        data-bs-toggle="modal" data-bs-target="#exampleModal"
                                     >
                                         Añadir Skills
                                     </button>
+
+                                    <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="modal-content">
+                                                <div className="modal-header">
+                                                    <h5 className="modal-title" id="exampleModalLabel">Añade tus skills</h5>
+                                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div className="modal-body">
+                                                    <form>
+                                                        <div className="mb-3">
+
+                                                            <select id="selectNumber" className="form-select form-select-sm" value={name} onChange={(e) => { setName(e.target.value) }}>
+                                                                <option>Tecnologias</option>
+                                                            </select>
+
+                                                            <div>
+                                                                <div className="form-check form-check-inline">
+                                                                    <p>Nivel de experiencia</p>
+                                                                    <input className="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" />
+                                                                    <label className="form-check-label" htmlFor="inlineCheckbox1">Basico</label>
+                                                                </div>
+                                                                <div className="form-check form-check-inline">
+                                                                    <input className="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" />
+                                                                    <label className="form-check-label" htmlFor="inlineCheckbox2">Medio</label>
+                                                                </div>
+                                                                <div className="form-check form-check-inline">
+                                                                    <input className="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" />
+                                                                    <label className="form-check-label" htmlFor="inlineCheckbox3">Avanzado</label>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <label htmlFor="exampleInputEmail1" className="form-label">Otros conocimientos</label>
+                                                            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div className="modal-footer">
+                                                    <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" className="btn group">Save changes</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </section>
                         </div>
                     </div>
                 </section>
-                
+
             </main>
         </Fragment>
     );
