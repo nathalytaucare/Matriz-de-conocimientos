@@ -6,11 +6,12 @@ const Navbar = () => {
     return (
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
-    <a className="navbar-brand p-1 flex-fill" href="/">
+    {/* IMAGEN LOGO */}
+    <a className="navbar-brand p-2 flex-fill" href="/">
      <img src={logo} width="2" height="33" alt="" />
     </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
-      {/* <span className="navbar-toggler-icon"></span> */}
+      <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
@@ -23,6 +24,7 @@ const Navbar = () => {
         <li className="nav-item p-2 flex-fill">
           <a className="nav-link" href="/">Perfil</a>
         </li>
+        {/* MENU NOTIFICACIONES */}
         <li className="nav-item dropdown p-2 flex-fill">
           <a className="nav-link dropdown-toggle" href="#/" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Notificaciones

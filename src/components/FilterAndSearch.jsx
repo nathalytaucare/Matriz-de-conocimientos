@@ -8,32 +8,6 @@ import data from "../tecnologias.json"
 
 const FilterAndSearch = () => {
 
-    const [tasks, setTasks] = useState([])
-
-    useEffect(() => {
-        const getEmployeesInfo = stores.collection('employees').onSnapshot(snap => {
-            const arrayEmployees = snap.docs.map(doc => {
-                return {
-                    id: doc.id, ...doc.data()
-                }
-            })
-            setTasks(arrayEmployees)
-
-            const select = document.getElementById("selectNumber");
-            const options = data.tecnologias;
-
-            for (let i = []; i < options.length; i++) {
-                const opt = options[i];
-                const el = document.createElement("option");
-                el.textContent = opt;
-                el.value = opt;
-                select.appendChild(el);
-            };
-
-        })
-        return () => getEmployeesInfo();
-    }, [])
-
     const [name, setName] = useState('')
 
     useEffect(() => {
@@ -50,13 +24,72 @@ const FilterAndSearch = () => {
 
     }, [])
 
-    const filterTech = (name) => {
-        /*  tasks.map(item => {
-                    return (
-                        console.log(item)
-                        );
-                }) 
-               console.log("name " + name) */
+
+    const [tasks, setTasks] = useState([])
+
+    // useEffect(() => {
+    //     const getEmployeesInfo = stores.collection('colaboradores').onSnapshot(snap => {
+    //         const arrayEmployees = snap.docs.map(doc => {
+    //             return {
+    //                 id: doc.id, ...doc.data()
+    //             }
+    //         })
+    //         let arrayTech = [];
+    //         arrayEmployees.map(item => (
+    //         arrayTech = Object.keys(item.tecnologias) 
+    //         ))
+            
+    //         let filtrarDatos = arrayTech.forEach(arrayData => arrayData === 'Angular')
+    //         setTasks(arrayEmployees)
+    //         console.log(filtrarDatos) 
+
+    //         const select = document.getElementById("selectNumber");
+    //         const options = data.tecnologias;
+
+    //         for (let i = []; i < options.length; i++) {
+    //             const opt = options[i];
+    //             const el = document.createElement("option");
+    //             el.textContent = opt;
+    //             el.value = opt;
+    //             select.appendChild(el);
+    //         };
+
+    //     })
+    //     return () => getEmployeesInfo();
+    // }, [name])
+
+   
+    const filterTech = () => {
+         stores.collection('pruebaprueba').onSnapshot(snap => {
+            const arrayEmployees = snap.docs.map(doc => {
+                return {
+                    id: doc.id, ...doc.data()
+                }
+            })
+            console.log(arrayEmployees[0])
+
+/*             let arrayTech = [];
+            arrayEmployees.map(item => (
+            arrayTech = Object.keys(item.tecnologias) 
+            )) */
+
+            // arrayTech.forEach(arrayData => {
+                  /* let filtro = arrayTech.filter(elem => elem === name);
+                    setTasks(filtro) */
+                // })
+                        
+/*             const select = document.getElementById("selectNumber");
+            const options = data.tecnologias;
+
+            for (let i = []; i < options.length; i++) {
+                const opt = options[i];
+                const el = document.createElement("option");
+                el.textContent = opt;
+                el.value = opt;
+                select.appendChild(el);
+            }; */
+
+        })
     }
 
 
@@ -118,7 +151,7 @@ const FilterAndSearch = () => {
                                 return (
                                     <tr key={item.ID}>
                                         <td>{item.Nombre}</td>
-                                        <td>{item.ID}</td>
+                                        <td>{item.Numero}</td>
                                         <td>{item.Email}</td>
                                         <td><Link to="/EmployeeProfile" className="btn group">Ver mas</Link></td>
                                     </tr>
