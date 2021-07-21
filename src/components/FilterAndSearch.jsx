@@ -26,68 +26,18 @@ const FilterAndSearch = () => {
 
 
     const [tasks, setTasks] = useState([])
-
-    // useEffect(() => {
-    //     const getEmployeesInfo = stores.collection('colaboradores').onSnapshot(snap => {
-    //         const arrayEmployees = snap.docs.map(doc => {
-    //             return {
-    //                 id: doc.id, ...doc.data()
-    //             }
-    //         })
-    //         let arrayTech = [];
-    //         arrayEmployees.map(item => (
-    //         arrayTech = Object.keys(item.tecnologias) 
-    //         ))
-            
-    //         let filtrarDatos = arrayTech.forEach(arrayData => arrayData === 'Angular')
-    //         setTasks(arrayEmployees)
-    //         console.log(filtrarDatos) 
-
-    //         const select = document.getElementById("selectNumber");
-    //         const options = data.tecnologias;
-
-    //         for (let i = []; i < options.length; i++) {
-    //             const opt = options[i];
-    //             const el = document.createElement("option");
-    //             el.textContent = opt;
-    //             el.value = opt;
-    //             select.appendChild(el);
-    //         };
-
-    //     })
-    //     return () => getEmployeesInfo();
-    // }, [name])
-
    
-    const filterTech = () => {
+    const filterTech = (name) => {
          stores.collection('pruebaprueba').onSnapshot(snap => {
             const arrayEmployees = snap.docs.map(doc => {
                 return {
                     id: doc.id, ...doc.data()
                 }
             })
-            console.log(arrayEmployees[0])
-
-/*             let arrayTech = [];
-            arrayEmployees.map(item => (
-            arrayTech = Object.keys(item.tecnologias) 
-            )) */
-
-            // arrayTech.forEach(arrayData => {
-                  /* let filtro = arrayTech.filter(elem => elem === name);
-                    setTasks(filtro) */
-                // })
-                        
-/*             const select = document.getElementById("selectNumber");
-            const options = data.tecnologias;
-
-            for (let i = []; i < options.length; i++) {
-                const opt = options[i];
-                const el = document.createElement("option");
-                el.textContent = opt;
-                el.value = opt;
-                select.appendChild(el);
-            }; */
+           
+            let result = arrayEmployees.filter(o => o.tecnologias.some(({nombre}) => name === nombre));
+            console.log("result",result)
+            setTasks(result)
 
         })
     }
