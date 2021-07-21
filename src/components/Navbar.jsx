@@ -24,7 +24,7 @@ const Navbar = () => {
           <a className="nav-link" href="/DashboardLeader">Dashboard</a>
         </li>
         <li className="nav-item p-2 flex-fill">
-          <a className="nav-link" href="/">Perfil</a>
+          <a className="nav-link" href="/leaderProfile">Perfil</a>
         </li>
         {/* MENU NOTIFICACIONES */}
         <li className="nav-item dropdown p-2 flex-fill">
