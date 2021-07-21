@@ -21,7 +21,7 @@ const Carousel1 = () => {
             </div> 
             <div className="carousel-item" data-bs-interval="2000">
               <div className="d-flex justify-content-center">
-                <img src="./imgCarousel/totalTech/junior.jpg" className="d-block w-55" alt="junior"/>              
+                <img src="./imgCarousel/totalTech/junior.jpg" className="d-block w-55" alt="junior"/>             
               </div>
             </div>
             <div className="carousel-item">
@@ -39,7 +39,6 @@ const Carousel1 = () => {
                 <img src="./imgCarousel/totalTech/expert.jpg" className="d-block w-55" alt="expert"/>              
               </div>
             </div>
-
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
