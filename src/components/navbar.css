@@ -11,15 +11,15 @@ margin: 0;
   inline-size: -webkit-fill-available;
 }
 
-.navbar img {
+.navbar_img {
   width: 10rem;
   height: 5rem;
 }
 
-.nav-item {
-  display: flex;
-}
-
 .nav-item svg {
   color: #9AAE04;
+}
+
+.nav-item {
+  display: flex;
 }
