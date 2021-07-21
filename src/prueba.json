@@ -1,0 +1,44 @@
+{
+    "pruebaprueba": [
+   {
+     "ID": 3,
+     "Email": "correo1@correo.com",
+     "Nombre": "NOMBRE 1",
+     "Numero": 146914,
+
+    "tecnologias": [
+      {
+      "nombre" : "Wordpress",
+      "nivel": "Básico"
+      },
+      {
+        "nombre" : "DialogFlow",
+        "nivel": "Bueno"
+      },
+      {
+        "nombre" : "eva 3.x",
+        "nivel": "Bueno"
+      }
+    ]
+   },
+   {
+     "ID": 4,
+     "Email": "correo2@correo.com",
+     "Nombre": "NOMBRE 2",
+     "Numero": 174468,
+
+     "tecnologias": [
+      {
+      "nombre" : "Wordpress",
+      "nivel": "Regular"
+      },
+      {
+        "nombre" : "GITHub",
+        "nivel": "Bueno"
+      },
+      {
+        "nombre" : "eva 3.x",
+        "nivel": "Bueno"
+      } 
+    ]
+  }]}
