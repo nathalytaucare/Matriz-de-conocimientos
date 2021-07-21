@@ -1,6 +1,5 @@
 .navbar {
 margin: 0;
-font-size: 1.5rem;
 }
 
 .navbar-collapse {
@@ -17,3 +16,10 @@ font-size: 1.5rem;
   height: 5rem;
 }
 
+.nav-item {
+  display: flex;
+}
+
+.nav-item svg {
+  color: #9AAE04;
+}

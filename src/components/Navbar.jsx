@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from "../images/FrameEverisColor.png";
 import '../components/navbar.css'
-import bell from '../images/light.png'
+import { BsFillBellFill } from "react-icons/bs";
 
 
 const Navbar = () => {
@@ -32,13 +32,14 @@ const Navbar = () => {
             Notificaciones
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a className="dropdown-item " href="/">Notificaciones</a></li>
-                        <img src={bell} alt="bell" width="32" height="32"/>
+            <li><a className="dropdown-item " href="/">Notificaciones </a></li>
             {/* <li><a className="dropdown-item" href="#/">Another action</a></li>
             <li><hr className="dropdown-divider"/></li>
             <li><a className="dropdown-item" href="#/">Something else here</a></li> */}
           </ul>
+          <BsFillBellFill />
         </li>
+  
         <li className="nav-item p-2 flex-fill">
           <a className="nav-link" href="/" tabIndex="-1">Log Out</a>
         </li>
