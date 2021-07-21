@@ -20,26 +20,6 @@
     margin-right: 15px;
 }
 
-.dashboardLeader {
-      height: 100vh;
-      background-image: url(../images/dashboard-lider.jpg);
-      background-repeat: no-repeat;
-      background-size: 100vh;
-      background-position: center;
-  }
-
-  .navbar-collapse {
-      justify-content: space-evenly;
-  }
-
-  .navbar-nav {
-      align-items: center;
-  }
-    
-  .navbar img {
-    width: 10rem;
-    height: 5rem;
-  }
   .carousel-control-next,
   .carousel-control-prev /*, .carousel-indicators */ {
       filter: invert(100%);

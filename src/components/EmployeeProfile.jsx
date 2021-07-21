@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 import profileCard from "../images/profileCard.png";
 import skills from "../images/skills.png";
 import light from "../images/light.png";
-import messages from "../images/messages.gif";
+import EmployeeCarousel from "./EmployeeCarousel";
 import NavbarEmployee from "./NavbarEmployee";
 
 const EmployeeProfile = () => {
@@ -18,11 +18,11 @@ const EmployeeProfile = () => {
                     <div className="row">
                         <div className="col-6">
                             <div className="p-3">
-                                <img
+                                {<img
                                     src={profileCard}
                                     alt="profile Card"
                                     className="img-fluid"
-                                />
+                                />}
                             </div>
                             <div className="p-2">
                                 <img src={skills} alt="skills" className="img-fluid" />
@@ -30,7 +30,7 @@ const EmployeeProfile = () => {
                         </div>
                         <div className="col-6 text-center">
                             <section >
-                            <img src={messages} alt="messages" className="img-fluid"  width="300" height="300"/> 
+                                <EmployeeCarousel />
                             </section>
                             <section className="border p-3">
                                 <div>
