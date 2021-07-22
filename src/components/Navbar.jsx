@@ -38,7 +38,6 @@ const Navbar = () => {
             <li><hr className="dropdown-divider"/></li>
             <li><a className="dropdown-item" href="/">Alguien mas solicita validar conocimientos</a></li>
           </ul>
-          
         </li>
         <li className="nav-item p-2 flex-fill">
           <a className="nav-link" href="/" tabIndex="-1">Log Out</a>

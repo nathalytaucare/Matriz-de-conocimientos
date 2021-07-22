@@ -19,3 +19,7 @@ margin: 0;
 .nav-item svg {
   color: #9AAE04;
 }
+
+.nav-item {
+  display: flex;
+}
