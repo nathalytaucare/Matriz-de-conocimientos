@@ -27,7 +27,7 @@ const FilterAndSearch = () => {
     const [tasks, setTasks] = useState([])
    
     const filterTech = (name) => {
-         stores.collection('ahorasiquesi').onSnapshot(snap => {
+         stores.collection('matrizConocimientos').onSnapshot(snap => {
             const arrayEmployees = snap.docs.map(doc => {
                 return {
                     id: doc.id, ...doc.data()
