@@ -2,7 +2,7 @@ import React, { Fragment, useState, useEffect } from 'react';
 import stores from '../firebaseconfig'
 import '../components/FilterAndSearch.css';
 import Navbar from "./Navbar";
-import data from "../tecnologias.json";
+import data from "../technologyDatabase.json";
 import MoreInfoEmployee from './MoreInfoEmployee';
 
 const FilterAndSearch = () => {
@@ -10,7 +10,6 @@ const FilterAndSearch = () => {
   const [conocimiento, setConocimiento] = useState("");
   const [idColaborador, setIdColaborador] = useState("");
   const [nivel, setNivel] = useState("");
-  console.log("nivel", nivel);
 
   useEffect(() => {
     const select = document.getElementById("selectNumber");
@@ -26,7 +25,6 @@ const FilterAndSearch = () => {
   }, []);
 
   const [tasks, setTasks] = useState([]);
-
   const filterTech = (name) => {
     stores.collection("matrizConocimientos").onSnapshot((snap) => {
       const arrayEmployees = snap.docs.map((doc) => {
@@ -35,52 +33,33 @@ const FilterAndSearch = () => {
           ...doc.data(),
         };
       });
-      //console.log(arrayEmployees)
-      // let result = arrayEmployees.filter(o => o.tecnologias.some(({nombre,nivel}) => name === nombre && "Medio"=== nivel ));
-      // console.log("result",result)
-      // setTasks(result)
       if (name !== "") {
-          let result="";
+        let result = "";
         switch (nivel) {
           case "basico":
-            result = arrayEmployees.filter(o => o.tecnologias.some(({nombre,nivel}) => name === nombre && "Basico"=== nivel ));
-            console.log("result",result)
+            result = arrayEmployees.filter(o => o.tecnologias.some(({ nombre, nivel }) => name === nombre && "Basico" === nivel));
             setTasks(result)
             break;
           case "":
-            result = arrayEmployees.filter((o) =>
-            o.tecnologias.some(({ nombre }) => name === nombre));
-            console.log("result", result);
+            result = arrayEmployees.filter((o) => o.tecnologias.some(({ nombre }) => name === nombre));             
             setTasks(result);
             break;
-            case "medio":
-                result = arrayEmployees.filter(o => o.tecnologias.some(({nombre,nivel}) => name === nombre && "Medio"=== nivel ));
-                console.log("result",result)
-                setTasks(result)
-                break;
-                case "avanzado":
-                    result = arrayEmployees.filter(o => o.tecnologias.some(({nombre,nivel}) => name === nombre && "Avanzado"=== nivel ));
-                    console.log("result",result)
-                    setTasks(result)
-                    break;
+          case "medio":
+            result = arrayEmployees.filter(o => o.tecnologias.some(({ nombre, nivel }) => name === nombre && "Medio" === nivel));
+            setTasks(result)
+            break;
+          case "avanzado":
+            result = arrayEmployees.filter(o => o.tecnologias.some(({ nombre, nivel }) => name === nombre && "Avanzado" === nivel));
+            setTasks(result)
+            break;
           default:
-            console.log(
-              "Lo lamentamos, ese nivel no existe"
-            );
+            alert("Seleccione un nivel");
         }
-      
       } else if (conocimiento !== "") {
-        let result = arrayEmployees.filter((o) =>
-          o.tecnologias.some(({ conocimientos }) => conocimiento === conocimientos)
-        );
-        console.log("result", result);
+        let result = arrayEmployees.filter((o) => o.tecnologias.some(({ conocimientos }) => conocimiento === conocimientos));
         setTasks(result);
       } else if (idColaborador !== "") {
-        console.log(idColaborador);
-        let result = arrayEmployees.filter(
-          (o) => o.Numero === parseInt(idColaborador)
-        );
-        console.log("result", result);
+        let result = arrayEmployees.filter((o) => o.Numero === parseInt(idColaborador));
         setTasks(result);
       }
     });
@@ -99,12 +78,10 @@ const FilterAndSearch = () => {
               value={name}
               onChange={(e) => {
                 setName(e.target.value);
-              }}
-            >
+              }}>
               <option>Tecnologias</option>
             </select>
           </div>
-
           <div className="form-group col-md-4">
             <input
               type="search"
@@ -114,8 +91,7 @@ const FilterAndSearch = () => {
               value={conocimiento}
               onChange={(e) => {
                 setConocimiento(e.target.value);
-              }}
-            />
+              }}/>
           </div>
           <div className="form-group col-md-4">
             <input
@@ -126,11 +102,9 @@ const FilterAndSearch = () => {
               value={idColaborador}
               onChange={(e) => {
                 setIdColaborador(e.target.value);
-              }}
-            />
+              }} />
           </div>
         </div>
-
         <div>
           <div className="form-check form-check-inline">
             <p>Nivel de experiencia</p>
@@ -141,8 +115,7 @@ const FilterAndSearch = () => {
               value="basico"
               onChange={(e) => {
                 setNivel(e.target.value);
-              }}
-            />
+              }}/>
             <label className="form-check-label" htmlFor="inlineCheckbox1">
               Basico
             </label>
@@ -155,8 +128,7 @@ const FilterAndSearch = () => {
               value="medio"
               onChange={(e) => {
                 setNivel(e.target.value);
-              }}
-            />
+              }} />
             <label className="form-check-label" htmlFor="inlineCheckbox2">
               Medio
             </label>
@@ -169,23 +141,19 @@ const FilterAndSearch = () => {
               value="avanzado"
               onChange={(e) => {
                 setNivel(e.target.value);
-              }}
-            />
+              }} />
             <label className="form-check-label" htmlFor="inlineCheckbox3">
               Avanzado
             </label>
           </div>
         </div>
-
         <button
           type="submit"
           className="btn group mb-2"
-          onClick={() => filterTech(name)}
-        >
+          onClick={() => filterTech(name)}>
           Filtrar
         </button>
       </section>
-
       <p className="title">{tasks.length} RESULTADOS ENCONTRADOS</p>
       <section className="orders_container">
         <div className="employeesTable">
@@ -206,9 +174,9 @@ const FilterAndSearch = () => {
                     <td>{item.Numero}</td>
                     <td>{item.Email}</td>
                     <td><button type="button" className="btn group mt-2 " data-bs-toggle="modal" data-bs-target="#exampleModal" >
-                                        VER MAS
-                                    <MoreInfoEmployee />
-                                    </button></td>
+                      VER MAS
+                      <MoreInfoEmployee />
+                    </button></td>
                   </tr>
                 );
               })}

@@ -2,7 +2,7 @@ import React from 'react';
 import './carousel.css';
 
 const Carousel1 = () => {
-  return ( 
+  return (
     <section className="container img-fluid section-carousel ">
       <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
         <div className="carousel-indicators">
@@ -14,31 +14,31 @@ const Carousel1 = () => {
         </div>
 
         <div className="carousel-inner ">
-            <div className="carousel-item active" data-bs-interval="10000">
-              <div className="d-flex justify-content-center">
-                <img src="./imgCarousel/totalTech/total.jpg" className="d-block w-55" alt="total"/>
-              </div>
-            </div> 
-            <div className="carousel-item" data-bs-interval="2000">
-              <div className="d-flex justify-content-center">
-                <img src="./imgCarousel/totalTech/junior.jpg" className="d-block w-55" alt="junior"/>             
-              </div>
+          <div className="carousel-item active" data-bs-interval="10000">
+            <div className="d-flex justify-content-center">
+              <img src="./imgCarousel/totalTech/total.jpg" className="d-block w-55" alt="total" />
             </div>
-            <div className="carousel-item">
-              <div className="d-flex justify-content-center">
-                <img src="./imgCarousel/totalTech/basic.jpg" className="d-block w-55" alt="basic"/>              
-              </div>
+          </div>
+          <div className="carousel-item" data-bs-interval="2000">
+            <div className="d-flex justify-content-center">
+              <img src="./imgCarousel/totalTech/junior.jpg" className="d-block w-55" alt="junior" />
             </div>
-            <div className="carousel-item">
-              <div className="d-flex justify-content-center">
-                <img src="./imgCarousel/totalTech/medium.jpg" className="d-block w-55" alt="medium"/>              
-              </div>
+          </div>
+          <div className="carousel-item">
+            <div className="d-flex justify-content-center">
+              <img src="./imgCarousel/totalTech/basic.jpg" className="d-block w-55" alt="basic" />
             </div>
-            <div className="carousel-item">
-              <div className="d-flex justify-content-center">
-                <img src="./imgCarousel/totalTech/expert.jpg" className="d-block w-55" alt="expert"/>              
-              </div>
+          </div>
+          <div className="carousel-item">
+            <div className="d-flex justify-content-center">
+              <img src="./imgCarousel/totalTech/medium.jpg" className="d-block w-55" alt="medium" />
             </div>
+          </div>
+          <div className="carousel-item">
+            <div className="d-flex justify-content-center">
+              <img src="./imgCarousel/totalTech/expert.jpg" className="d-block w-55" alt="expert" />
+            </div>
+          </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
