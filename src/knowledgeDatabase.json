@@ -1,5 +1,5 @@
 {
-"ahorasiquesi": [
+"matrizConocimientos": [
     {
       "ID": 3,
       "Email": "correo1@correo.com",
@@ -17,6 +17,24 @@
         {
           "nombre": "eva 3.x",
           "nivel": "Medio"
+        },
+        {
+          "nombre": "Google Analytics",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Jenkins",
+          "nivel": "Avanzado"
+        },
+        {
+          "nombre": "GITHub",
+          "nivel": "Basico"
+        },
+        {
+          "conocimientos": "Salesforce"
+        },
+        {
+          "conocimientos": "Figma"
         }
       ]
     },
@@ -71,10 +89,10 @@
           "nivel": "Medio"
         },
         {
-          "Otros conocimientos": [
-            "Ingles",
-            "Python"
-          ]
+          "conocimientos": "Ingles"
+        },
+        {
+          "conocimientos": "Python"
         }
       ]
     },
@@ -185,7 +203,7 @@
           "nivel": "Medio"
         },
         {
-          "nombre": "Salesforce"
+          "conocimientos": "Salesforce"
         }
       ]
     },
@@ -274,6 +292,9 @@
         {
           "nombre": "Paid Media (Display Google, Facebook Ads, Instagram Ads)",
           "nivel": "Basico"
+        },
+        {
+          "conocimientos": "Adobe Photoshop"
         }
       ]
     },
@@ -328,14 +349,22 @@
           "nivel": "Basico"
         },
         {
-          "Otros conocimientos": [
-            "Adobe Photoshop",
-            "Ilustrator",
-            "Indesing",
-            "Sketch",
-            "Figma",
-            "Scrum"
-          ]
+          "conocimientos": "Adobe Photoshop"
+        },
+        {
+          "conocimientos": "Ilustrator"
+        },
+        {
+          "conocimientos": "Indesing"
+        },
+        {
+          "conocimientos": "Sketch"
+        },
+        {
+          "conocimientos": "Figma"
+        },
+        {
+          "conocimientos": "Scrum"
         }
       ]
     },
@@ -380,6 +409,9 @@
         {
           "nombre": "eva 3.x",
           "nivel": "Medio"
+        },
+        {
+          "conocimientos": "Ingles"
         }
       ]
     },
@@ -416,6 +448,9 @@
         {
           "nombre": "Optimize",
           "nivel": "Basico"
+        },
+        {
+          "conocimientos": "UX/UI"
         }
       ]
     }

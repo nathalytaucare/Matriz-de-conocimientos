@@ -8,7 +8,7 @@ const NavbarEmployee = () => {
   <div className="container-fluid">
     {/* IMAGEN LOGO */}
     <a className="navbar-brand p-2 flex-fill" href="/">
-     <img src={logo} width="2" height="33" alt="" />
+     <img src={logo} className="navbar_img" alt="" />
     </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -16,7 +16,7 @@ const NavbarEmployee = () => {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ml-auto">
         <li className="nav-item p-6 flex-fill">
-          <a className="nav-link" href="/" tabIndex="-1">Log Out</a>
+          <a className="nav-link d-flex flex-row-reverse" href="/" tabIndex="-1">Log Out</a>
         </li>
       </ul>
     </div>

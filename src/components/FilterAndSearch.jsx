@@ -1,10 +1,9 @@
-import React, { Fragment, useState, useEffect } from "react";
-import stores from "../firebaseconfig";
-import "../components/FilterAndSearch.css";
-import { Link } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.css";
+import React, { Fragment, useState, useEffect } from 'react';
+import stores from '../firebaseconfig'
+import '../components/FilterAndSearch.css';
 import Navbar from "./Navbar";
 import data from "../tecnologias.json";
+import MoreInfoEmployee from './MoreInfoEmployee';
 
 const FilterAndSearch = () => {
   const [name, setName] = useState("");
@@ -206,11 +205,10 @@ const FilterAndSearch = () => {
                     <td>{item.Nombre}</td>
                     <td>{item.Numero}</td>
                     <td>{item.Email}</td>
-                    <td>
-                      <Link to="/EmployeeView" className="btn group">
-                        Ver mas
-                      </Link>
-                    </td>
+                    <td><button type="button" className="btn group mt-2 " data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                                        VER MAS
+                                    <MoreInfoEmployee />
+                                    </button></td>
                   </tr>
                 );
               })}
