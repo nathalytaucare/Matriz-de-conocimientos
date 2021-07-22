@@ -29,7 +29,7 @@ const FilterAndSearch = () => {
   const [tasks, setTasks] = useState([]);
 
   const filterTech = (name) => {
-    stores.collection("ahorasiquesiestesi").onSnapshot((snap) => {
+    stores.collection("matrizConocimientos").onSnapshot((snap) => {
       const arrayEmployees = snap.docs.map((doc) => {
         return {
           id: doc.id,
@@ -72,7 +72,7 @@ const FilterAndSearch = () => {
       
       } else if (conocimiento !== "") {
         let result = arrayEmployees.filter((o) =>
-          o.tecnologias.some(({ nombre }) => conocimiento === nombre)
+          o.tecnologias.some(({ conocimientos }) => conocimiento === conocimientos)
         );
         console.log("result", result);
         setTasks(result);
