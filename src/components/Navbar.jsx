@@ -17,10 +17,10 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item p-2 flex-fill">
-              <a className="nav-link active" aria-current="page" href="/FilterAndSearch">Busqueda</a>
+              <a className="nav-link" aria-current="page" href="/FilterAndSearch">Busqueda</a>
             </li>
             <li className="nav-item p-2 flex-fill">
-              <a className="nav-link" href="/DashboardLeader">Dashboard</a>
+              <a className="nav-link active" href="/DashboardLeader">Dashboard</a>
             </li>
             <li className="nav-item p-2 flex-fill">
               <a className="nav-link" href="/leaderProfile">Perfil</a>
