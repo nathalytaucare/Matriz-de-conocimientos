@@ -2,9 +2,11 @@ import React, { Fragment} from "react";
 import profileCard from "../images/profileCard.png";
 import skills from "../images/skills.png";
 import light from "../images/light.png";
+
 import Navbar from "./Navbar";
 
 const LeaderProfile = () => {
+    const history = useHistory();
     return (
         <Fragment>
            <Navbar />
@@ -94,4 +96,5 @@ const LeaderProfile = () => {
 );
 };
 
-export default LeaderProfile
+export default LeaderProfile;
+

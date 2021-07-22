@@ -3,6 +3,7 @@ import DashboardLeader from './components/DashboardLeader'
 import EmployeeProfile from './components/EmployeeProfile'
 import FilterAndSearch from './components/FilterAndSearch'
 import LeaderProfile from './components/LeaderProfile'
+import EmployeeView from './components/EmployeeView'
 import Login from './components/Login'
 
 import {
@@ -26,6 +27,8 @@ const App = () => {
           <Route path="/employeeProfile" component={EmployeeProfile} />
 
           <Route path="/filterAndSearch" component={FilterAndSearch} />
+
+          <Route path="/EmployeeView" component={EmployeeView} />
 
         </Switch>
 
