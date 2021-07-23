@@ -1,19 +1,20 @@
 # Problemática Everis :earth_americas: 
 En la semana de la hackaton nuestro sponsor es [Everis](https://www.everis.com/chile/es), una compañía que se dedica a consultorías y outsourcing, presente en 17 países y que cuenta en la actualidad con más de 27.000 profesionales. Sin duda, con esta cantidad de colaboradores es necesario organizar los equipos de trabajo  usando las tecnologías actuales de forma eficiente. 
-## Knowledge Database :rocket: 
+## KnowData :rocket: 
 #### Opciones de mejora.
 En conversaciones con personal de Everis, se detectó tres principales problemáticas:
 * El método actual para recopilar la información de skills, tecnologías y conocimientos de los colaboradores hace que el proceso de definición de equipos de trabajo sea ineficiente.
 * No existe claridad de nuevos aprendizajes que puedan tener los colaboradores, más allá de lo que se sabe por su currículum.
-* Se desconoce la demanda de tecnologías por cliente,así como la capacidad de la empresa de cubrir esa demanda de forma eficaz.
+* Se desconoce la demanda de tecnologías por cliente, así como la capacidad de la empresa de cubrir esa demanda de forma eficaz.
 ## Consideraciones técnicas
-Knowledge Database es una aplicación web construida como una [Single-page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application), pensada para ser usada como aplicación Web.
+KnowData es una aplicación web construida como una [Single-page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application), pensada para ser usada como aplicación Web.
 En la página podemos ingresar a nuestra cuenta como perfil de Líder o Colaborador con nuestro correo institucional. 
 ### Diseño visual :speech_balloon:
 En el diseño de la plataforma decidimos usar la guía de estilos de Everis, usando un diseño simple e intuitivo. La paleta de colores, el uso del Logo y el estilo de diseño se ajusta al Manual de Identidad corporativa de la compañía.
 #### Diagrama de Flujo de la plataforma
 
 ![Diagrama de Flujo de la plataforma](https://i.imgur.com/WFJfFUc.jpg)
+
 Inicialmente incorporamos el perfil de gerencia, pero haciendo iteraciones, encontramos muchas similitudes con el perfil de Gerencia, por lo que decidimos conservar sólo mantener el perfil de Líder y de Colaborador.
 
 Si ingresamos al perfil de Líder, podemos ver la página donde visualizamos el **Dashboard** donde se muestran los gráficos de estadísticas de Oferta y Demanda. 
@@ -39,7 +40,7 @@ Filtro y búsqueda
  En el siguiente [link](https://www.figma.com/file/KJs7BsY1DthCHcLNVz5zuL/Matriz?node-id=204%3A84) podemos encontrar el prototipo en Figma realizado. 
  
 ## Link del proyecto :computer:
-[Knowledge Database](https://matriz-conocimiento.web.app/).
+[KnowData](https://matriz-conocimiento.web.app/), la mejor solución para la conformación de equipos de trabajo en el mundo tech.
 ---
 ## Construido con :hammer:
 * [JavaScript](https://www.javascript.com/) - Lenguaje de programación.
