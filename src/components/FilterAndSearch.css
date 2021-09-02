@@ -1,0 +1,40 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .orders_group {
+    margin: 1em;
+    padding: 1em;
+    height: max-content;
+  }
+  
+  .orders_container {
+    display: flex;
+    height: auto;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+
+  .employeesTable {
+    overflow: scroll;
+    width: 88%;
+    height: 80em;
+  }
+
+  .filter_section {
+    background-color: #E5E5E5;
+    padding: 2em;
+    margin: 1rem 3rem 1rem 3rem;
+  }
+
+  .group {
+    background-color: #9AAE04!important;
+    border-color: #9AAE04!important;
+    color: white!important;
+  }
+  
+  .title {
+    color: #9aae04;
+    text-align: center;
+    font-weight: bold;
+  }

@@ -1,0 +1,29 @@
+.navbar {
+margin: 0;
+font-style:normal;
+font-weight:bold;
+font-size: 1.5rem;
+}
+
+.navbar-collapse {
+  justify-content: space-evenly;
+}
+
+.navbar-nav {
+  align-items: center;
+  inline-size: -webkit-fill-available;
+}
+
+.navbar_img {
+  width: 8rem;
+  height: 4rem;
+}
+
+.nav-item svg {
+  color: #9AAE04;
+}
+
+.nav-item {
+  display: flex;
+}
+

@@ -1,0 +1,458 @@
+{
+"matrizConocimientos": [
+    {
+      "ID": 3,
+      "Email": "correo1@correo.com",
+      "Nombre": "NOMBRE 1",
+      "Numero": 146914,
+      "tecnologias": [
+        {
+          "nombre": "Wordpress",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "DialogFlow",
+          "nivel": "Medio"
+        },
+        {
+          "nombre": "eva 3.x",
+          "nivel": "Medio"
+        },
+        {
+          "nombre": "Google Analytics",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Jenkins",
+          "nivel": "Avanzado"
+        },
+        {
+          "nombre": "GITHub",
+          "nivel": "Basico"
+        },
+        {
+          "conocimientos": "Salesforce"
+        },
+        {
+          "conocimientos": "Figma"
+        }
+      ]
+    },
+    {
+      "ID": 5,
+      "Email": "correo3@correo.com",
+      "Nombre": "NOMBRE 3",
+      "Numero": 194448,
+      "tecnologias": [
+        {
+          "nombre": "Tag Manager",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Hotjar",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Google Analytics",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Jenkins",
+          "nivel": "Avanzado"
+        },
+        {
+          "nombre": "GITHub",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Confluence",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Jira",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "BotFramework",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "IBM Watson",
+          "nivel": "Avanzado"
+        },
+        {
+          "nombre": "Microsoft LUIS",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "DialogFlow",
+          "nivel": "Medio"
+        },
+        {
+          "conocimientos": "Ingles"
+        },
+        {
+          "conocimientos": "Python"
+        }
+      ]
+    },
+    {
+      "ID": 6,
+      "Email": "correo4@correo.com",
+      "Nombre": "NOMBRE 4",
+      "Numero": 182056,
+      "tecnologias": [
+        {
+          "nombre": "Paid Media (Display Google, Facebook Ads, Instagram Ads)",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Tag Manager",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Google Analytics",
+          "nivel": "Medio"
+        },
+        {
+          "nombre": "GITHub",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Confluence",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Jira",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "IBM Watson",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "DialogFlow",
+          "nivel": "Medio"
+        },
+        {
+          "nombre": "eva 2.x",
+          "nivel": "Medio"
+        },
+        {
+          "nombre": "eva 3.x",
+          "nivel": "Medio"
+        }
+      ]
+    },
+    {
+      "ID": 7,
+      "Email": "correo5@correo.com",
+      "Nombre": "NOMBRE 5",
+      "Numero": 15300,
+      "tecnologias": [
+        {
+          "nombre": "MVC",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Jenkins",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Google Analytics",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "GITHub",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Confluence",
+          "nivel": "Medio"
+        },
+        {
+          "nombre": "Jira",
+          "nivel": "Medio"
+        },
+        {
+          "nombre": "IBM Watson",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "DialogFlow",
+          "nivel": "Medio"
+        },
+        {
+          "nombre": "Wordpress",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "eva 3.x",
+          "nivel": "Medio"
+        },
+        {
+          "nombre": "Microsoft LUIS",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Data Studio",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "PowerBI",
+          "nivel": "Medio"
+        },
+        {
+          "conocimientos": "Salesforce"
+        }
+      ]
+    },
+    {
+      "ID": 8,
+      "Email": "correo6@correo.com",
+      "Nombre": "NOMBRE 6",
+      "Numero": 15301,
+      "tecnologias": [
+        {
+          "nombre": "MVC",
+          "nivel": "Medio"
+        },
+        {
+          "nombre": "Angular",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Google Analytics",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Jira",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "GITHub",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "eva 2.x",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Android (Java)",
+          "nivel": "Medio"
+        },
+        {
+          "nombre": "DialogFlow",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "MVP",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "eva 3.x",
+          "nivel": "Medio"
+        },
+        {
+          "nombre": "React Js",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Ionic React",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "React Native",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Unity",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "GITHub",
+          "nivel": "Medio"
+        },
+        {
+          "nombre": "MVVM",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Clean Architecture",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Data Studio",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Firebase Analytics",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Paid Media (Display Google, Facebook Ads, Instagram Ads)",
+          "nivel": "Basico"
+        },
+        {
+          "conocimientos": "Adobe Photoshop"
+        }
+      ]
+    },
+    {
+      "ID": 9,
+      "Email": "correo7@correo.com",
+      "Nombre": "NOMBRE 7",
+      "Numero": 175145,
+      "tecnologias": [
+        {
+          "nombre": "Wordpress",
+          "nivel": "Medio"
+        },
+        {
+          "nombre": "Adobe Commerce (Magento)",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Liferay eCommerce",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Oracle Commerce",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "eva 3.x",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "eva 2.x",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "IBM Watson",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "BotFramework",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Optimize",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Jira",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "DialogFlow",
+          "nivel": "Basico"
+        },
+        {
+          "conocimientos": "Adobe Photoshop"
+        },
+        {
+          "conocimientos": "Ilustrator"
+        },
+        {
+          "conocimientos": "Indesing"
+        },
+        {
+          "conocimientos": "Sketch"
+        },
+        {
+          "conocimientos": "Figma"
+        },
+        {
+          "conocimientos": "Scrum"
+        }
+      ]
+    },
+    {
+      "ID": 10,
+      "Email": "correo8@correo.com",
+      "Nombre": "NOMBRE 8",
+      "Numero": 197117,
+      "tecnologias": [
+        {
+          "nombre": "MVC",
+          "nivel": "Medio"
+        },
+        {
+          "nombre": "Angular",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Google Analytics",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "GITHub",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "eva 3.x",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Android (Java)",
+          "nivel": "Medio"
+        },
+        {
+          "nombre": "DialogFlow",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "MVP",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "eva 3.x",
+          "nivel": "Medio"
+        },
+        {
+          "conocimientos": "Ingles"
+        }
+      ]
+    },
+    {
+      "ID": 4,
+      "Email": "correo2@correo.com",
+      "Nombre": "NOMBRE 2",
+      "Numero": 174468,
+      "tecnologias": [
+        {
+          "nombre": "Wordpress",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "GITHub",
+          "nivel": "Medio"
+        },
+        {
+          "nombre": "eva 3.x",
+          "nivel": "Medio"
+        },
+        {
+          "nombre": "eva 2.x",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "IBM Watson",
+          "nivel": "Avanzado"
+        },
+        {
+          "nombre": "BotFramework",
+          "nivel": "Basico"
+        },
+        {
+          "nombre": "Optimize",
+          "nivel": "Basico"
+        },
+        {
+          "conocimientos": "UX/UI"
+        }
+      ]
+    }
+  ]
+}
